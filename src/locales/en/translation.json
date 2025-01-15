@@ -1,0 +1,115 @@
+{
+  "home": {
+    "welcome": "Welcome!",
+    "description": "Recently graduated in <strong>computer engineering</strong> from Polytechnique Montréal, I am passionate about <strong>backend development</strong> using languages like <strong>Java</strong> and <strong>Python</strong>!"
+  },
+
+  "aboutMe": {
+    "card1": " \ud83c\uddeb\ud83c\uddf7 Originally from France, I moved to Canada <strong>5 years ago</strong> and have since become a <strong>permanent resident</strong>. During this time, I have had the opportunity to embrace a new culture and develop valuable professional skills that have enriched my journey.",
+    "card2": "🎯 Over the years, I have worked on a wide range of projects, spanning <strong>application and website development</strong>, <strong>robotics</strong>, and <strong>machine learning</strong>. These experiences have helped me tackle technical challenges and create practical, user-focused solutions."
+  },
+
+  "skills": {
+    "title": "Skills",
+    "categories": {
+      "programmingLanguages": "Programming Languages",
+      "webAndAIFrameworks": "Web and AI Frameworks",
+      "databases": "Databases",
+      "toolsAndTechnologies": "Tools and Technologies"
+    }
+  },
+
+  "projects": {
+    "title": "Projects",
+    "intro": "Click on a project to dive into its details.",
+    "project1": {
+      "title": "Neurostimulation Application",
+      "description": "An innovative solution to reduce tremors associated with Parkinson's disease.",
+      "detailedDescription": "This project was developed as part of my <strong>final year project</strong> at <strong>Polytechnique Montréal</strong> in collaboration with a <strong>neurosurgeon</strong>, who acted as our client. Working as a <strong>team of six</strong>, we combined our skills to design this innovative application. The system integrates a <strong>smartwatch</strong>, a <strong>tablet</strong>, and a <strong>server</strong> to collect and analyze <strong>sensor data</strong> in real-time, continuously adjusting parameters to <strong>reduce or even eliminate the user's tremors</strong>."
+    },
+    "project2": {
+      "title": "Web Page",
+      "description": "My personal webpage to showcase my projects and skills.",
+      "detailedDescription": "I created this webpage to highlight my skills and projects. It is designed to be responsive and intuitive, with animations to ensure a pleasant user experience."
+    },
+    "project3": {
+      "title": "Comparative analysis between two databases",
+      "description": "A performance comparison of Redis and MongoDB in distributed environments.",
+      "detailedDescription": "This project explores the performance of Redis and MongoDB in distributed environments. Conducted as part of the <strong>Software Architecture and Advanced Design</strong> course at <strong>Polytechnique Montréal</strong>, the study evaluates these databases based on speed, latency, and scalability under various workloads. We used Docker Compose, YCSB, and Bash scripts to simulate real-world scenarios."
+    },
+    "project4": {
+      "title": "Prediction of Road Accident Victims in Quebec",
+      "description": "Using machine learning to predict road accident victims in Quebec.",
+      "detailedDescription": "This project aims to predict the number of victims involved in road accidents in Quebec using data-driven and machine learning approaches. It was conducted as part of the Industrial Data Exploration course at Polytechnique Montréal."
+    }
+
+
+  },
+
+  "interests": {
+    "title": "Personnal Interests",
+    "travel": {
+      "title": "🌍 Travel and Cultures",
+      "description": "I have had the opportunity to travel a lot in my life, which has given me the chance to explore the richness and diversity of cultures. I deeply enjoy discovering local traditions and immersing myself in unique environments."
+    },
+    "sports": {
+      "title": "💪 Sports",
+      "description": "Sports are one of my great passions. Currently, I practice <strong>kickboxing</strong>, <strong>climbing</strong>, and <strong>weightlifting</strong>, which keep me fit while taking on physical challenges."
+    },
+    "cinema": {
+      "title": "🎥 Cinema",
+      "description": "A big fan of cinema, I enjoy exploring various genres and discovering films that evoke emotions and reflections."
+    },
+    "gaming": {
+      "title": "\uD83C\uDFAE Board and Video Games",
+      "description": "I am a big fan of board games and video games, especially those that require strategy and critical thinking. They allow me to sharpen my analytical mind while sharing enjoyable moments with friends and family."
+    }
+  },
+
+  "floatingNav": {
+    "home": "Home",
+    "skills": "Skills",
+    "projects": "Projects",
+    "interests": "Personal interests",
+    "emailCopied": "Email address copied to clipboard!"
+  },
+  "modal": {
+    "buttonDesc": "See the project"
+  },
+
+  "neurosimulation": {
+    "title": "Neurostimulation Application",
+    "sections": {
+      "presentation": {
+        "title": "Overview",
+        "content": "This application was designed to assist clinicians in managing neurostimulation sessions. It enables real-time visualization of electrical stimulation parameters, sensor data analysis, and patient progress tracking using interactive tools."
+      },
+      "technologies": {
+        "title": "Technologies Used",
+        "content": "The application is based on a client-server architecture and offers seamless communication between a tablet, smartwatch, and web server. Sensor data is collected and stored in either a local or remote database, ensuring flexibility and optimal performance."
+      },
+      "features": {
+        "title": "Key Features",
+        "realtime": {
+          "title": "Real-Time Data Visualization",
+          "content": "Clinicians can observe sensor data in real-time, displayed as clear graphs and detailed heatmaps.",
+          "captions": {
+            "chart1": "Visualization of tremors captured by sensors in real-time.",
+            "heatmap": "Heatmap illustrating the optimal parameter combination to reduce tremors.",
+            "chart2": "Presentation of average and minimum tremor values after AI feedback."
+          }
+        },
+        "sessions": {
+          "title": "Session Management and Data Transfer",
+          "content": "Clinicians have access to a complete session history and can save data locally or securely transfer it to a remote server.",
+          "captions": {
+            "history": "A visual overview of all past sessions, grouped by date and patient.",
+            "summary": "A detailed summary of results and trends for key parameters.",
+            "upload": "The data transfer process to the remote server, ensuring security and confidentiality."
+          }
+        }
+      },
+      "backToProjects": "Back to Projects"
+    }
+  }
+}

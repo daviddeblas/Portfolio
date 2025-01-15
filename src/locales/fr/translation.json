@@ -1,0 +1,116 @@
+{
+  "home": {
+    "welcome": "Bienvenue !",
+    "description": "Récemment diplômé en <strong>génie informatique</strong> à Polytechnique Montréal, je suis passionné par le <strong>développement backend</strong> en utilisant des langages comme <strong>Java</strong> et <strong>Python</strong> !"
+  },
+
+  "aboutMe": {
+    "card1": " \ud83c\uddeb\ud83c\uddf7 Étant originaire de France, j’ai déménagé au Canada il y a maintenant <strong>5 ans</strong> et j'y suis aujourd'hui <strong>résident permanent</strong>. Durant cette période, j’ai eu l’opportunité de découvrir une nouvelle culture et de développer des compétences professionnelles enrichissantes !",
+    "card2": "🎯 Au cours de mon parcours, j’ai travaillé sur des projets diversifiés, allant du <strong>développement d'applications et de sites web</strong> à la <strong>robotique</strong>, en passant par le <strong>machine learning</strong>. Cela m'a appris à relever des défis techniques tout en créant des solutions pratiques pour les utilisateurs."
+  },
+
+  "skills": {
+    "title": "Compétences",
+    "categories": {
+      "programmingLanguages": "Langages de programmation",
+      "webAndAIFrameworks": "Frameworks web et IA",
+      "databases": "Bases de données",
+      "toolsAndTechnologies": "Outils et technologies"
+    }
+  },
+
+  "projects": {
+    "title": "Projets",
+    "intro": "Cliquez sur un projet pour en découvrir les détails.",
+    "project1": {
+      "title": "Application de Neurostimulation",
+      "description": "Ici on cherche à réduire les tremblements associés à la maladie de Parkinson.",
+      "detailedDescription": "Ce projet a été réalisé dans le cadre de mon <strong>projet final</strong> à <strong>Polytechnique Montréal</strong>, en collaboration avec un <strong>neurochirurgien</strong> qui agissait comme client. Nous étions une <strong>équipe de six</strong>, unissant nos compétences pour concevoir cette application innovante. Le système intègre une <strong>montre connectée</strong>, une <strong>tablette</strong> et un <strong>serveur</strong> pour collecter et analyser des <strong>données de capteurs</strong> en temps réel, ajustant continuellement les paramètres afin de <strong>réduire ou éliminer les tremblements de l'utilisateur</strong>."
+    },
+    "project2": {
+      "title": "Page Web",
+      "description": "Ma page web personnelle pour présenter mes projets et compétences.",
+      "detailedDescription": "J'ai créé cette page web pour mettre en avant mes compétences et mes projets. Elle est conçue pour être réactive et intuitive, avec des animations pour garantir une expérience utilisateur agréable."
+    },
+    "project3": {
+      "title": "Analyse comparative entre deux base de données",
+      "description": "Analyse comparative des bases de données NoSQL Redis et MongoDB.",
+      "detailedDescription": "Ce projet explore les performances de Redis et MongoDB dans des environnements distribués. Conduit dans le cadre du cours <strong>Architecture logicielle et conception avancée</strong> à <strong>Polytechnique Montréal</strong>, il évalue ces bases de données sur des critères de vitesse, latence et évolutivité sous différentes charges de travail. Docker Compose, YCSB, et des scripts Bash ont été utilisés pour simuler des scénarios réels."
+    },
+    "project4": {
+      "title": "Prédiction des victimes d'accidents de la route au Québec",
+      "description": "Prédiction des victimes d'accidents de la route au Québec à l'aide de modèles de machine learning.",
+      "detailedDescription": "Ce projet vise à prédire le nombre de victimes d'accidents de la route au Québec en utilisant des approches basées sur les données et le machine learning. Réalisé dans le cadre du cours Exploration des données industrielles à Polytechnique Montréal."
+    }
+
+
+  },
+
+  "interests": {
+    "title": "Intérêts Personnels",
+    "travel": {
+      "title": "🌍 Voyages et cultures",
+      "description": "J’ai eu la chance de voyager à travers le monde, une expérience qui m’a permis de découvrir la richesse et la diversité des cultures. J’aime profondément explorer les traditions locales et m’immerger dans des environnements uniques."
+    },
+    "sports": {
+      "title": "💪 Sport",
+      "description": "Le sport est une véritable source d’équilibre. Actuellement, je pratique le <strong>kickboxing</strong>, <strong>le squash</strong> et la <strong>musculation</strong>. J’apprécie les moments où je peux me dépasser, relever des défis physiques et me vider l’esprit ! "
+    },
+    "cinema": {
+      "title": "🎥 Cinéma",
+      "description": "Grand amateur de cinéma, j'apprécie explorer des genres variés et découvrir des films qui suscitent des émotions et des réflexions."
+    },
+    "gaming": {
+      "title": "\uD83C\uDFAE Jeux de société et jeux vidéo",
+      "description": "Je suis un grand amateur de jeux de société et de jeux vidéo, en particulier ceux qui demandent stratégie et réflexion. Cela me permet de cultiver mon esprit analytique tout en partageant des moments conviviaux avec mes proches. "
+    }
+  },
+
+
+  "floatingNav": {
+    "home": "Accueil",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "interests": "Mes Intérêts",
+    "emailCopied": "Adresse email copiée dans le presse-papiers !"
+  },
+  "modal": {
+    "buttonDesc": "Voir le projet"
+  },
+
+  "neurosimulation": {
+    "title": "Application de Neurostimulation",
+    "sections": {
+      "presentation": {
+        "title": "Présentation",
+        "content": "Cette application a été conçue pour assister les cliniciens dans la gestion des sessions de neurostimulation. Elle permet de visualiser en temps réel les paramètres des stimuli électriques, d’analyser les données des capteurs et de suivre les progrès des patients grâce à des outils interactifs."
+      },
+      "technologies": {
+        "title": "Technologies utilisées",
+        "content": "L’application repose sur une architecture client-serveur et propose une communication fluide entre tablette, montre connectée et serveur web. Les données des capteurs sont collectées et stockées sur une base de données locale ou distante selon les besoins d’analyse, garantissant flexibilité et performance optimale."
+      },
+      "features": {
+        "title": "Fonctionnalités principales",
+        "realtime": {
+          "title": "Visualisation des données en temps réel",
+          "content": "Les cliniciens peuvent observer en temps réel les données des capteurs, affichées sous forme de graphiques clairs et de cartes thermiques détaillées.",
+          "captions": {
+            "chart1": "Visualisation des tremblements capturés par les capteurs en temps réel.",
+            "heatmap": "Carte thermique illustrant la combinaison optimale de paramètres pour réduire les tremblements.",
+            "chart2": "Présentation des valeurs moyennes et minimales des tremblements après rétroaction de l'intelligence artificielle."
+          }
+        },
+        "sessions": {
+          "title": "Gestion des sessions et transfert des données",
+          "content": "Les cliniciens ont accès à un historique complet des sessions et peuvent sauvegarder les données localement ou les transférer en toute sécurité vers un serveur distant.",
+          "captions": {
+            "history": "Un aperçu visuel de toutes les sessions passées, regroupées par date et par patient.",
+            "summary": "Un résumé détaillé des résultats et des tendances des paramètres importants.",
+            "upload": "Le processus de transfert des données vers le serveur distant, garantissant sécurité et confidentialité."
+          }
+        }
+      },
+      "backToProjects": "Retour aux projets"
+    }
+  }
+}
