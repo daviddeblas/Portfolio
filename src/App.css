@@ -1,0 +1,94 @@
+/* ---------------------------
+   Header et language switcher
+---------------------------- */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 1000;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.language-switcher {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  display: flex;
+  gap: 15px;
+  z-index: 1000;
+}
+
+.language-switcher button {
+  padding: 10px 20px;
+  border: 1px solid #007b92;
+  border-radius: 8px;
+  background-color: #0099b5;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.language-switcher button.active {
+  background-color: #00bcd4;
+  border-color: #00bcd4;
+  box-shadow: 0 6px 12px rgba(0, 188, 212, 0.3);
+}
+
+.language-switcher button:hover {
+  background-color: #00a2c4;
+  box-shadow: 0 6px 15px rgba(0, 162, 196, 0.3);
+  transform: translateY(-2px);
+}
+
+.language-switcher button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(0, 153, 181, 0.4);
+}
+
+/* ---------------------------
+   Texte principal
+---------------------------- */
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  color: #333;
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+/* ---------------------------
+   Section Bubbles
+---------------------------- */
+.features-section {
+  background-color: #f7f8fa;
+  padding-bottom: 40px;
+}
+
+.features-card {
+  position: relative;
+  max-width: 1250px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+}
