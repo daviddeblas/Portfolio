@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://subtlepatterns.com/patterns/sativa.png');
+    background-repeat: repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Global container */
+.projects-gallery {
+    width: 90%;
+    max-width: 1100px;
+    margin: 60px auto;
+}
+
+.projects-title {
+    grid-column: 1 / -1;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.projects-intro {
+    grid-column: 1 / -1;
+    margin: 10px auto 40px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #444;
+    max-width: 70%;
+    line-height: 1.8;
+}
+
+.project-card {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 250px;
+    margin: 0 auto 2rem;
+    background-size: cover; /* Ajuste l'image pour couvrir tout l'espace */
+    background-position: center; /* Centre l'image dans le conteneur */
+    border-radius: 10px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+    overflow: visible;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    z-index: 1;
+}
+
+@media (min-width: 600px) {
+    .project-card {
+        height: 300px;
+    }
+}
+@media (min-width: 720px) {
+    .project-card {
+        display: inline-block;
+        width: 45%;
+        margin-left: 25px;
+    }
+}
+
+
+.project-card__overlay {
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    padding: 0 1rem;
+}
+
+.project-card__overlay::after {
+    content: "";
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    background-color: #202020;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    transition: all 0.4s ease-in-out;
+}
+
+/* To hide animated text from the overlay */
+.project-card__text-wrapper {
+    overflow: hidden;
+}
+
+.project-card__title {
+    position: relative;
+    top: -200px;
+    margin-bottom: 0.5rem;
+    margin-top: 3rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+    transition: all 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+
+.project-card__desc {
+    position: relative;
+    top: -200px;
+    color: #f2f2f2;
+    margin: 0 auto 1.5rem;
+    font-size: 1rem;
+    text-align: center;
+    max-width: 80%;
+    line-height: 1.4;
+    transition: top 0.4s ease-in-out, opacity 0.4s ease-in-out;
+    opacity: 0;
+}
+
+.project-card__link {
+    position: relative;
+    display: block;
+    width: 60%;
+    top: 200px;
+    padding: 10px;
+    margin: 0 auto;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    font-size: 1rem;
+    transition: all 0.4s ease-in-out;
+}
+
+.project-card__link:hover {
+    background-color: #fff;
+    color: #202020;
+}
+
+.project-card:hover {
+    z-index: 999;
+    overflow: visible;  /* authorizes the tooltip to exceed */
+}
+
+/* Hover Effects */
+.project-card:hover .project-card__title {
+    top: 0;
+}
+.project-card:hover .project-card__desc {
+    top: 0;
+    opacity: 1;
+}
+.project-card:hover .project-card__link {
+    top: 0;
+}
+.project-card:hover .project-card__overlay::after {
+    opacity: 0.75;
+}
+
+.project-card__icons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.project-card:hover .project-card__icons {
+    opacity: 1;
+}
+
+.project-card__icon {
+    font-size: 1.8rem;
+    color: rgba(255, 255, 255, 0.8);
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.project-card__icon:hover {
+    transform: scale(1.3);
+    color: #ffd700;
+}
+
+.tooltip {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+    white-space: nowrap; /* Prevent text wrapping */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    pointer-events: none; /* Disable interaction with the tooltip */
+}
+
+.project-card__icon:hover .tooltip {
+    visibility: visible; /* Show tooltip on hover */
+    opacity: 1;
+    transform: translateX(-50%) translateY(-5px);
+}

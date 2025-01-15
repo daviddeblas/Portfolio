@@ -1,0 +1,43 @@
+/**
+ * Inspiration:
+ * This code was inspired by a design from Codepen created by mohaiman
+ * The original code come from: https://codepen.io/mohaiman/pen/MQqMyo
+ */
+
+.floating-squares-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.floating-square {
+    position: absolute;
+    display: block;
+    bottom: -10vh; /* in order to not see the initialization of the square */
+    opacity: 0;
+    border-radius: 20px;
+    animation-name: floatUp;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes floatUp {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-110vh) rotate(720deg);
+        opacity: 0;  /* Disappear at the top */
+    }
+}

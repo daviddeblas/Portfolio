@@ -1,0 +1,45 @@
+.about-me-section {
+    background-color: #f7f8fa;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.emoji {
+    font-family: 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
+}
+
+
+.about-me-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-me-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 20px 30px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-me-card p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+    text-align: justify;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .about-me-card {
+        padding: 20px;
+    }
+
+    .about-me-card p {
+        font-size: 1rem;
+    }
+}
