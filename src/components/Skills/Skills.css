@@ -18,7 +18,7 @@
 }
 
 .skills-image-background {
-    background-image: url('../../images/coding-image.jpg');
+    background-image: url('/src/assets/images/coding-image.jpg');
     background-size: cover;
     background-position: center;
     border-radius: 20px;
