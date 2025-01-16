@@ -1,50 +1,33 @@
-# React + TypeScript + Vite
+# Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This portfolio was created using **React**, **TypeScript**, and **Vite** to build a fast, modular, and maintainable application.
 
-Currently, two official plugins are available:
+## Key Features
+- Fully responsive design for all devices.
+- Multilingual support with translations (English and French).
+- Modular and reusable components.
+- Hosted on Vercel with continuous deployment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Structure
 
-## Expanding the ESLint configuration
+The project is organized as follows:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+```plaintext
+portfolio/
+├── src/                 # Main source code
+│   ├── assets/          # Contains images and other static assets for the projects
+│   ├── components/      # Contains reusable components of the project
+│   ├── interface/       # Defines TypeScript interfaces and types used in the project
+│   ├── locales/         # Stores language files (English and French)
+│   ├── pages/           # Contains individual pages of the project
+│   ├── utils/           # Includes utility functions and icons used in the project
+│   ├── i18n.tsx         # Handles translations and internationalization for the site
+│   └── App.tsx          # The root component of the application
 
-- Configure the top-level `parserOptions` property like this:
+├── public/              # Static assets (where the logo is located for example)
+├── tsconfig.json        # TypeScript configuration file
+├── eslint.config.js     # ESLint configuration file
+├── package.json         # Contains project metadata and dependencies
+├── vercel.json          # Configuration file for Vercel deployment, defining file organization
+└── README.md            # Project documentation
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
