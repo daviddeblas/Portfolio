@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Icons } from "../../utils/icons";
 import { useTranslation } from "react-i18next";
+import "./FloatingNav.css"; // <-- Import du fichier CSS
 
 const FloatingNav: React.FC = () => {
     const { t } = useTranslation();
@@ -45,58 +46,18 @@ const FloatingNav: React.FC = () => {
     ];
 
     return (
-        <div>
-            {/* Temporary message for copied email */}
+        <>
             {message && (
-                <div
-                    style={{
-                        position: "fixed",
-                        bottom: "100px",
-                        left: "50%",
-                        transform: "translateX(-50%)",
-                        background: "rgba(0, 0, 0, 0.8)",
-                        color: "#fff",
-                        padding: "10px 20px",
-                        borderRadius: "5px",
-                        zIndex: 1001,
-                        fontSize: "14px",
-                    }}
-                >
+                <div className="copied-message">
                     {message}
                 </div>
             )}
 
-            {/* Floating Navbar */}
-            <div
-                style={{
-                    position: "fixed",
-                    bottom: "20px",
-                    left: "50%",
-                    transform: "translateX(-50%)",
-                    display: "flex",
-                    gap: "15px",
-                    background: "rgba(0, 0, 0, 0.8)",
-                    padding: "10px 20px",
-                    borderRadius: "30px",
-                    zIndex: 1000,
-                }}
-            >
+            <div className="floating-nav">
                 {navItems.map((item) => (
                     <div
                         key={item.id}
-                        style={{
-                            position: "relative",
-                            cursor: "pointer",
-                            display: "flex",
-                            justifyContent: "center",
-                            alignItems: "center",
-                            width: "50px",
-                            height: "50px",
-                            borderRadius: "50%",
-                            background: "#333",
-                            color: "#fff",
-                            transition: "transform 0.3s ease",
-                        }}
+                        className="floating-nav-item"
                         onClick={() => {
                             if (item.action) {
                                 item.action();
@@ -129,7 +90,7 @@ const FloatingNav: React.FC = () => {
                     </div>
                 ))}
             </div>
-        </div>
+        </>
     );
 };
 

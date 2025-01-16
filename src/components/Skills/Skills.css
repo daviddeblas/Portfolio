@@ -51,12 +51,15 @@
     margin-bottom: 10px;
 }
 
-/* Container of icons */
 .skills-icons {
     display: flex;
-    gap: 15px;
+    gap: 5px;
     flex-wrap: wrap;
     justify-content: flex-start;
+}
+
+.skills-section > .skills-card:nth-child(5) .skills-icons {
+    gap: 15px;
 }
 
 /* Individual icon */
@@ -80,7 +83,8 @@
     transform: scale(1.5);
 }
 
-@media (max-width: 660px) {
+/* For smartphone screen */
+@media (max-width: 752px) {
     .skills-section {
         grid-template-columns: 1fr;
     }
