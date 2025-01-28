@@ -7,10 +7,11 @@ import testingMachineLimits from "./images/neurosimulation-project/Testing_machi
 import uploadingData from "./images/neurosimulation-project/Uploading_data.jpg";
 import systemDesign from "./images/neurosimulation-project/System_design.jpg";
 import portfolioPage from "./images/portfolio-site/portfolio-page.jpg";
-import thumbnailProject1 from "./images/neurosimulation-project/Thumbnail-project1.jpg";
+import neurosimulation from "./images/neurosimulation-project/Thumbnail-project1.jpg";
 import systemOperation from "./images/neurosimulation-project/System_operation.jpg";
-import thumbnailProject3 from "./images/database-comparator-project/throughput_run_comparison.png"
-import thumbnailProject4 from "./images/machine-learning-project/machine-learning.jpg"
+import databaseComparator from "./images/database-comparator-project/throughput_run_comparison.png";
+import machineLearning from "./images/machine-learning-project/machine-learning.jpg";
+import subscriptionManager from "./images/subscription-manager-project/subscription-manager.jpg";
 
 const images = {
     projects: {
@@ -23,25 +24,28 @@ const images = {
             testingMachineLimits,
             uploadingData,
             systemDesign,
-            thumbnailProject1,
+            neurosimulation,
             systemOperation,
-            thumbnailProject3,
-            thumbnailProject4
+            databaseComparator,
+            machineLearning,
+            subscriptionManager
         },
         project1: {
-            thumbnail: thumbnailProject1,
+            thumbnail: neurosimulation,
         },
         project2: {
-            thumbnail: portfolioPage,
+            thumbnail: subscriptionManager,
         },
         project3: {
-            thumbnail: thumbnailProject3,
+            thumbnail: portfolioPage,
         },
         project4: {
-            thumbnail: thumbnailProject4,
+            thumbnail: databaseComparator,
         },
+        project5: {
+            thumbnail: machineLearning,
+        }
     },
 };
 
 export default images;
-

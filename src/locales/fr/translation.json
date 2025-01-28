@@ -28,16 +28,21 @@
       "detailedDescription": "Ce projet a été réalisé dans le cadre de mon <strong>projet final</strong> à <strong>Polytechnique Montréal</strong>, en collaboration avec un <strong>neurochirurgien</strong> qui agissait comme client. Nous étions une <strong>équipe de six</strong>, unissant nos compétences pour concevoir cette application innovante. Le système intègre une <strong>montre connectée</strong>, une <strong>tablette</strong> et un <strong>serveur</strong> pour collecter et analyser des <strong>données de capteurs</strong> en temps réel, ajustant continuellement les paramètres afin de <strong>réduire ou éliminer les tremblements de l'utilisateur</strong>."
     },
     "project2": {
+      "title": "Gestionnaire d'abonnements",
+      "description": "Une application web pour gérer vos différents abonnements directement depuis votre compte Gmail.",
+      "detailedDescription": "Ce Gestionnaire d'abonnements (Subscription Manager) est une application web open-source conçue pour aider les utilisateurs à gérer facilement leurs abonnements aux newsletters. En connectant votre compte Gmail via OAuth2, l'application analyse votre boîte mail pour identifier, visualiser et vous désabonner des newsletters indésirables en toute simplicité."
+    },
+    "project3": {
       "title": "Page Web",
       "description": "Ma page web personnelle pour présenter mes projets et compétences.",
       "detailedDescription": "J'ai créé cette page web pour mettre en avant mes compétences et mes projets. Elle est conçue pour être réactive et intuitive, avec des animations pour garantir une expérience utilisateur agréable."
     },
-    "project3": {
+    "project4": {
       "title": "Analyse comparative entre deux base de données",
       "description": "Analyse comparative des bases de données NoSQL Redis et MongoDB.",
       "detailedDescription": "Ce projet explore les performances de Redis et MongoDB dans des environnements distribués. Conduit dans le cadre du cours <strong>Architecture logicielle et conception avancée</strong> à <strong>Polytechnique Montréal</strong>, il évalue ces bases de données sur des critères de vitesse, latence et évolutivité sous différentes charges de travail. Docker Compose, YCSB, et des scripts Bash ont été utilisés pour simuler des scénarios réels."
     },
-    "project4": {
+    "project5": {
       "title": "Prédiction des victimes d'accidents de la route au Québec",
       "description": "Prédiction des victimes d'accidents de la route au Québec à l'aide de modèles de machine learning.",
       "detailedDescription": "Ce projet vise à prédire le nombre de victimes d'accidents de la route au Québec en utilisant des approches basées sur les données et le machine learning. Réalisé dans le cadre du cours Exploration des données industrielles à Polytechnique Montréal."

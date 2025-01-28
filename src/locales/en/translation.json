@@ -28,16 +28,21 @@
       "detailedDescription": "This project was developed as part of my <strong>final year project</strong> at <strong>Polytechnique Montréal</strong> in collaboration with a <strong>neurosurgeon</strong>, who acted as our client. Working as a <strong>team of six</strong>, we combined our skills to design this innovative application. The system integrates a <strong>smartwatch</strong>, a <strong>tablet</strong>, and a <strong>server</strong> to collect and analyze <strong>sensor data</strong> in real-time, continuously adjusting parameters to <strong>reduce or even eliminate the user's tremors</strong>."
     },
     "project2": {
+      "title": "Subscription Manager",
+      "description": "A web application to manage your newsletter subscriptions directly from your Gmail account.",
+      "detailedDescription": "Subscription Manager is an open-source web application designed to help users effortlessly manage their newsletter subscriptions. By connecting your Gmail account via OAuth2, the application scans your inbox to identify, view, and unsubscribe from unwanted newsletters seamlessly."
+    },
+    "project3": {
       "title": "Web Page",
       "description": "My personal webpage to showcase my projects and skills.",
       "detailedDescription": "I created this webpage to highlight my skills and projects. It is designed to be responsive and intuitive, with animations to ensure a pleasant user experience."
     },
-    "project3": {
+    "project4": {
       "title": "Comparative analysis between two databases",
       "description": "A performance comparison of Redis and MongoDB in distributed environments.",
       "detailedDescription": "This project explores the performance of Redis and MongoDB in distributed environments. Conducted as part of the <strong>Software Architecture and Advanced Design</strong> course at <strong>Polytechnique Montréal</strong>, the study evaluates these databases based on speed, latency, and scalability under various workloads. We used Docker Compose, YCSB, and Bash scripts to simulate real-world scenarios."
     },
-    "project4": {
+    "project5": {
       "title": "Prediction of Road Accident Victims in Quebec",
       "description": "Using machine learning to predict road accident victims in Quebec.",
       "detailedDescription": "This project aims to predict the number of victims involved in road accidents in Quebec using data-driven and machine learning approaches. It was conducted as part of the Industrial Data Exploration course at Polytechnique Montréal."
