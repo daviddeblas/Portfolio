@@ -30,7 +30,7 @@
     "project2": {
       "title": "Gestionnaire d'abonnements",
       "description": "Une application web pour gérer vos différents abonnements directement depuis votre compte Gmail.",
-      "detailedDescription": "Ce Gestionnaire d'abonnements (Subscription Manager) est une application web open-source conçue pour aider les utilisateurs à gérer facilement leurs abonnements aux newsletters. En connectant votre compte Gmail via OAuth2, l'application analyse votre boîte mail pour identifier, visualiser et vous désabonner des newsletters indésirables en toute simplicité."
+      "detailedDescription": "Ce Gestionnaire d'abonnements (Subscription Manager) est une application web open-source conçue pour aider les utilisateurs à gérer facilement leurs abonnements aux newsletters. En connectant votre compte Gmail via OAuth2, l'application analyse votre boîte mail pour <strong>identifier, visualiser et vous désabonner des newsletters indésirables en toute simplicité</strong>."
     },
     "project3": {
       "title": "Page Web",
