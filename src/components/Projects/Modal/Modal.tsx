@@ -29,22 +29,20 @@ const Modal: React.FC<ModalProps> = ({ project, onClose }) => {
                         &times;
                     </span>
                 </div>
-                <div className="modal-body">
-                    <img
-                        src={project.modalImage}
-                        alt={`Capture of ${project.title}`}
-                        className="modal-image"
-                    />
-                    <p className="modal-description">
-                        <Trans i18nKey={`projects.project${project.id}.detailedDescription`} components={{ strong: <strong /> }} />
-                    </p>
-                    {project.link && (
-                        <AnimatedButton
-                            label={t("modal.buttonDesc")}
-                            onClick={handleButtonClick}
-                        />
-                    )}
+                <img
+                    src={project.modalImage}
+                    alt={`Capture of ${project.title}`}
+                    className="modal-image"
+                />
+                <div className="modal-description">
+                    <Trans i18nKey={`projects.project${project.id}.detailedDescription`} components={{ strong: <strong /> }} />
                 </div>
+                {project.link && (
+                    <AnimatedButton
+                        label={t("modal.buttonDesc")}
+                        onClick={handleButtonClick}
+                    />
+                )}
             </div>
         </div>
     );
