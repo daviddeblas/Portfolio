@@ -12,6 +12,7 @@ import systemOperation from "./images/neurosimulation-project/System_operation.j
 import databaseComparator from "./images/database-comparator-project/throughput_run_comparison.png";
 import machineLearning from "./images/machine-learning-project/machine-learning.jpg";
 import subscriptionManager from "./images/subscription-manager-project/subscription-manager.jpg";
+import groceryManagerThumbnail from "./images/grocery-manager-project/grocery-manager-thumbnail.png";
 
 const images = {
     projects: {
@@ -26,9 +27,9 @@ const images = {
             systemDesign,
             neurosimulation,
             systemOperation,
-            databaseComparator,
-            machineLearning,
-            subscriptionManager
+        },
+        project0: {
+            thumbnail: groceryManagerThumbnail,
         },
         project1: {
             thumbnail: neurosimulation,

@@ -22,6 +22,10 @@
   "projects": {
     "title": "Projets",
     "intro": "Cliquez sur un projet pour en découvrir les détails.",
+    "project0": {
+      "title": "Gestionnaire de Courses",
+      "description": "Une application simple et efficace pour gérer vos listes de courses, avec rappels intelligents lorsque vous passez près de vos magasins favoris.",
+      "detailedDescription": "Cette application est une <strong>application full-stack</strong> composée d'un <strong>backend Spring Boot</strong> et d'un <strong>frontend Android</strong>, conçue pour aider les utilisateurs à gérer efficacement leurs listes de courses. L'application propose une <strong>synchronisation automatique entre appareils</strong>, des <strong>notifications intelligentes</strong> rappelant à l'utilisateur les articles à acheter lorsqu'il s'approche des magasins enregistrés, et une interface intuitive pour gérer tous ses articles."    },
     "project1": {
       "title": "Application de Neurostimulation",
       "description": "Ici on cherche à réduire les tremblements associés à la maladie de Parkinson.",

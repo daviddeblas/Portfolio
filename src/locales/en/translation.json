@@ -22,6 +22,11 @@
   "projects": {
     "title": "Projects",
     "intro": "Click on a project to dive into its details.",
+    "project0": {
+      "title": "Grocery Manager",
+      "description": "A simple and efficient app to manage your shopping lists, with smart reminders when you pass near your favorite stores.",
+      "detailedDescription": "This application is a <strong>full-stack solution</strong> featuring a <strong>Spring Boot backend</strong> and an <strong>Android frontend</strong>, designed to help users efficiently manage their shopping lists. The app offers <strong>automatic synchronization across devices</strong>, <strong>smart notifications</strong> reminding users of items to purchase when approaching saved stores, and an intuitive interface for managing all shopping items."
+    },
     "project1": {
       "title": "Neurostimulation Application",
       "description": "An innovative solution to reduce tremors associated with Parkinson's disease.",

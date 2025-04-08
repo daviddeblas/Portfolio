@@ -9,6 +9,24 @@ export const projectsData = (): Project[] => {
 
     return [
         {
+            id: 0,
+            image: images.projects.project0.thumbnail,
+            title: t("projects.project0.title"),
+            description: t("projects.project0.description"),
+            detailedDescription: t("projects.project0.detailedDescription"),
+            link: "https://github.com/daviddeblas/grocery-manager",
+            targetBlank: true,
+            modalImage: images.projects.project0.thumbnail,
+            technologies: [
+                { icon: <Icons.Java />, label: "Java" },
+                { icon: <Icons.SpringBoot />, label: "Spring Boot" },
+                { icon: <Icons.Kotlin />, label: "Kotlin" },
+                { icon: <Icons.Android />, label: "Android" },
+                { icon: <Icons.PostgreSQL />, label: "PostgreSQL" },
+                { icon: <Icons.Docker />, label: "Docker" },
+            ],
+        },
+        {
             id: 1,
             image: images.projects.project1.thumbnail,
             title: t("projects.project1.title"),

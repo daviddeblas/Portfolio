@@ -9,7 +9,8 @@ import {
     FaGit,
     FaMap,
     FaTerminal,
-    FaChartBar
+    FaChartBar,
+    FaAndroid
 } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
 import {
@@ -58,6 +59,7 @@ export const Icons = {
     AWS: FaAws,
     Git: FaGit,
     Bash: FaTerminal,
+    Android: FaAndroid,
 
     // Navbar icons
     Home: FaHome,
